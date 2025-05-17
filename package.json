@@ -1,7 +1,7 @@
 {
   "name": "@horlys/elysia-response",
   "description": "📦 A plugin for Elysia to standardize responses",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "elysia",
     "response"
