@@ -11,8 +11,8 @@
     "type": "git",
     "url": "https://github.com/Horlys/elysia-response"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
   "license": "MIT",
@@ -26,8 +26,8 @@
     "./package.json": "./package.json",
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/cjs/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "devDependencies": {
